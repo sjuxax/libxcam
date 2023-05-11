@@ -23,6 +23,7 @@ test_image_stabilization_SOURCES = \
 
 test_image_stabilization_CXXFLAGS = \
     $(XCAM_CXXFLAGS)      \
+    $(OPENCV_CFLAGS)      \
     -I$(top_srcdir)/xcore \
     $(NULL)
 

@@ -4,6 +4,7 @@ noinst_LTLIBRARIES = libxcam_plugin_dvs.la
 
 XCAM_PLUGIN_DVS_CXXFLAGS = \
     $(XCAM_CXXFLAGS)                         \
+    $(OPENCV_CFLAGS)                         \
     -I$(top_srcdir)/xcore                    \
     -I$(top_srcdir)/modules                  \
     -I$(top_srcdir)/plugins/smart/dvs/libdvs \
